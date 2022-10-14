@@ -1,0 +1,44 @@
+PDB          RMSD   Sigma RMSD    <0.5A  <1.0A  <1.5A  <2.0A  <2.5A  <3.0A  Iter    Time Con   Trial Success  RMSD Int Ext Sequence(+Anchors)
+ID           Avg[A] +-[A] Min[A]    [%]    [%]    [%]    [%]    [%]    [%]   [#]     [s] [%] F/B [%] F/B [%]  Anch [%] [%]         
+
+renumbered_temp94cleansidechains  5.626 0.000  5.626   0.00   0.00   0.00   0.00   0.00   0.00  2743    1.18  21  50/50   60/40  0.039 11100 7400 CASSFNMATGQYF
+
+Average       5.626 0.000  5.626   0.00   0.00   0.00   0.00   0.00   0.00  2743    1.18  21  50/50   60/40  0.039 11100 7400
+Sigma         0.000 0.000  0.000   0.00   0.00   0.00   0.00   0.00   0.00     0    0.00   0   0/0     0/0   0.000   0   0
+
+
+ 
+RUN SPECIFICATIONS
+ 
+ 
+Date of run                                   03 Oct 2022 20:56:00
+Input file                                         rcd_targets.txt
+Number of PDBs tested                                            1
+Number closures/pdb                                            200
+Maximum iteration count/closure                              12000
+Maximum iteration count/perturbation cycle                     100
+Index for saving a trajectory path                             195
+Intra-anchor degree of freedom:                                  1
+Using native loop internal coordinates (ics)                     0
+Randomizing ics each closure                                     1
+Randomizing bond lengths                                         1
+Randomizing valence angles                                       1
+Reverse loop closure                                             0
+Switching direction mode:                                        3
+RMSD criterium for convergence                               0.500
+Perturbation angle (degrees)                              -160.000
+Step size grid                                               0.250
+Softness grid spheres                                        0.900
+Number cutoff atoms loop in grid checking                        3
+Backbone grid                                                    0
+Sequential initialization on the grid                            0
+Ramachandran initialization (dunbrack = 2 classic = 1; off = 0)  2
+Ramachandran inside (dunbrack = 2 classic = 1; off = 0)          2
+Inside check threshold                                     0.90000
+Post check threshold                                      -1.00000
+Self-loop detection (on = 1; off = 0)                            1
+Post-algorithm grid check  (on = 1; off = 0)                     0
+Avg RMSD (all pdbs) begin (trials)                          18.742
+Avg RMSD (all pdbs) begin solution                          23.444
+Include hydrogens in protein map (on = 1; off = 0)               0
+

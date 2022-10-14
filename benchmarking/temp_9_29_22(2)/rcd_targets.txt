@@ -1,0 +1,6 @@
+renumbered_tempa1.pdb 26 31 D DSAIYN
+renumbered_tempa2.pdb 49 56 D VRPYQREQ
+renumbered_tempa3.pdb 90 102 D AVRPGGAGPFFVV
+renumbered_tempb1.pdb 25 29 E SGHRS
+renumbered_tempb2.pdb 47 53 E YFSETQR
+renumbered_tempb3.pdb 90 100 E ASSFNMATGQY

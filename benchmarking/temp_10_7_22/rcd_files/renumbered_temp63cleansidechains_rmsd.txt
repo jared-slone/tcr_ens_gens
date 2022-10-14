@@ -1,0 +1,3 @@
+# Loop    RMSD[A]     Bump   BumpEx   BumpIn     Energy
+# native      0.0    0.000        -        -   -236.127
+       0    3.910    0.000    0.000    0.000 -221.41567

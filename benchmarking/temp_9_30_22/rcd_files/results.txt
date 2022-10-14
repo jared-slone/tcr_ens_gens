@@ -1,0 +1,49 @@
+PDB          RMSD   Sigma RMSD    <0.5A  <1.0A  <1.5A  <2.0A  <2.5A  <3.0A  Iter    Time Con   Trial Success  RMSD Int Ext Sequence(+Anchors)
+ID           Avg[A] +-[A] Min[A]    [%]    [%]    [%]    [%]    [%]    [%]   [#]     [s] [%] F/B [%] F/B [%]  Anch [%] [%]         
+
+renumbered_tempa1  1.635 0.265  0.989   0.00   1.00  23.00  93.00  99.00 100.00  1059    1.03  68  42/58   39/61  0.002   2 116 TDSAIYNL
+renumbered_tempa2  1.914 0.493  0.963   0.00   1.00  20.00  64.00  87.00  96.00  2344    1.51  66  51/49   50/50  0.002  46  67 YVRPYQREQT
+renumbered_tempa3  3.772 1.132  1.408   0.00   0.00   1.00   4.00  16.00  23.00  3792   15.07  10  50/50   56/44  0.002 1714 648 CAVRPGGAGPFFVVF
+renumbered_tempb1  0.677 0.340  0.263  30.00  85.00  96.00 100.00 100.00 100.00   586    0.32  86  66/34   70/30  0.002   0  41 ISGHRSV
+renumbered_tempb2  3.857 0.889  1.433   0.00   0.00   1.00   3.00   6.00  12.00  1671    1.09  77  51/49   52/48  0.002  41  31 EYFSETQRN
+renumbered_tempb3  6.176 1.976  1.924   0.00   0.00   0.00   1.00   2.00   3.00  2712    5.20  21  51/49   58/42  0.002 640 273 CASSFNMATGQYF
+
+Average       3.005 0.849  1.164   5.00  14.50  23.50  44.17  51.67  55.67  2028    4.04  55  52/48   54/46  0.002 407 196
+Sigma         1.993 0.645  0.564  12.25  34.54  36.97  47.05  48.27  47.55  1168    5.67  31   8/8    10/10  0.000 687 239
+
+
+ 
+RUN SPECIFICATIONS
+ 
+ 
+Date of run                                   29 Sep 2022 14:49:21
+Input file                                    temp/rcd_targets.txt
+Number of PDBs tested                                            6
+Number closures/pdb                                           1000
+Maximum iteration count/closure                              12000
+Maximum iteration count/perturbation cycle                     100
+Index for saving a trajectory path                             995
+Intra-anchor degree of freedom:                                  1
+Using native loop internal coordinates (ics)                     0
+Randomizing ics each closure                                     1
+Randomizing bond lengths                                         1
+Randomizing valence angles                                       1
+Reverse loop closure                                             0
+Switching direction mode:                                        3
+RMSD criterium for convergence                               0.500
+Perturbation angle (degrees)                              -160.000
+Step size grid                                               0.250
+Softness grid spheres                                        0.900
+Number cutoff atoms loop in grid checking                        3
+Backbone grid                                                    0
+Sequential initialization on the grid                            0
+Ramachandran initialization (dunbrack = 2 classic = 1; off = 0)  2
+Ramachandran inside (dunbrack = 2 classic = 1; off = 0)          2
+Inside check threshold                                     0.90000
+Post check threshold                                      -1.00000
+Self-loop detection (on = 1; off = 0)                            1
+Post-algorithm grid check  (on = 1; off = 0)                     0
+Avg RMSD (all pdbs) begin (trials)                          19.926
+Avg RMSD (all pdbs) begin solution                          23.737
+Include hydrogens in protein map (on = 1; off = 0)               0
+
